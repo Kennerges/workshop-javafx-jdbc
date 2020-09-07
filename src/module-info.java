@@ -3,4 +3,6 @@ module workshop.javafx.jdbc {
     requires javafx.controls;
     opens gui;
     opens application;
+    opens model.entities;
+    opens model.services;
 }
